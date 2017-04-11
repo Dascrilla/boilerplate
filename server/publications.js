@@ -1,6 +1,3 @@
-Meteor.publish('payees', function() {
-    return Payees.find();
-});
 Meteor.publish('deals', function() {
     return Deals.find();
 });
