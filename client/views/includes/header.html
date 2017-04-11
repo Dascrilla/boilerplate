@@ -1,0 +1,36 @@
+<template name="header">
+<div class="navbar navbar-inverse navbar-default">
+<div class="navbar-inner col-lg-10 col-md-offset-1 col-md-10">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    <a class="navbar-brand" href="{{pathFor 'dashboard'}}"><i class="fa fa-money"></i> Comp</a>
+  </div>
+
+  <div class="navbar-collapse collapse">
+  <ul class="nav navbar-nav pull-right">
+            {{> accountButtons}}
+         </ul>
+
+{{#if currentUser}}
+    <ul class="nav navbar-nav">
+        <li> <a href="{{pathFor 'payeeList'}}"><i class="fa fa-user"></i> Payees</a></li>
+    <li> <a href="{{pathFor 'dealList'}}"><i class="fa fa-table"></i> Deals</a></li>
+    <li> <a href="{{pathFor 'calcList'}}"><i class="fa fa-table"></i> Calcs</a></li>
+    </ul>
+{{/if}}
+
+    <!--<form class="navbar-form navbar-left">
+      <input type="text" class="form-control col-lg-8" placeholder="Search">
+    </form> -->
+
+
+  </div>
+</div>
+</div>
+
+</template>

@@ -1,0 +1,48 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+iron:core
+sacha:spin
+standard-app-packages
+iron:router
+underscore@1.0.10
+jquery
+ajduke:bootstrap-tagsinput
+meteorhacks:fast-render
+accounts-password@1.3.4
+coffeescript
+accounts-ui@1.1.9
+houston:admin
+rajit:bootstrap3-datepicker
+momentjs:moment
+email@1.1.18
+meteorhacks:ssr
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+standard-minifier-css
+standard-minifier-js
+shell-server
+google-config-ui
+appworkshop:accounts-entry
+meteorhacks:aggregate
+peppelg:mongo-sum
+harrison:papa-parse
+themeteorchef:bert
+fortawesome:fontawesome
+reactive-var
+alexdmejias:to-dollars
+ecmascript
+bootswatch:paper

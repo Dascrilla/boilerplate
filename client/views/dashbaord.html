@@ -1,0 +1,26 @@
+<template name="dashboard">
+<div class="container">
+	<div class="row">
+
+		<div class="jumbotron">
+			  <h1>Hi {{username}},</h1>
+			  <p>What do you wanna do today?</p>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-body">
+					<a href="{{pathFor 'payeeList'}}"><h3><i class="fa fa-large fa-globe"></i> Payees</h3></a>
+				</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-body">
+			    <a href="{{pathFor 'dealList'}}"><h3><i class="fa fa-large fa-globe"></i> Deals</h3></a>
+			  </div>
+		</div>
+
+
+
+	</div>
+</div>
+</template>
